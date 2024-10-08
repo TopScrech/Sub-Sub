@@ -2,7 +2,7 @@ import SwiftUI
 import SwiftData
 
 @main
-struct Sub_SubApp: App {
+struct SubSub: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self
