@@ -6,30 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F31A544E2CB51E240039F168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F31A54462CB51E240039F168 /* Assets.xcassets */; };
+		F31A54502CB51E240039F168 /* Content View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31A54472CB51E240039F168 /* Content View.swift */; };
+		F31A54512CB51E240039F168 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31A54492CB51E240039F168 /* Item.swift */; };
+		F31A54522CB51E240039F168 /* Sub-Sub.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31A544B2CB51E240039F168 /* Sub-Sub.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F31A542E2CB51E190039F168 /* Sub-Sub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sub-Sub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31A54462CB51E240039F168 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F31A54472CB51E240039F168 /* Content View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Content View.swift"; sourceTree = "<group>"; };
+		F31A54482CB51E240039F168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F31A54492CB51E240039F168 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		F31A544A2CB51E240039F168 /* Sub_Sub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sub_Sub.entitlements; sourceTree = "<group>"; };
+		F31A544B2CB51E240039F168 /* Sub-Sub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sub-Sub.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		F31A543E2CB51E1B0039F168 /* Exceptions for "Sub-Sub" folder in "Sub-Sub" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = F31A542D2CB51E190039F168 /* Sub-Sub */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		F31A54302CB51E190039F168 /* Sub-Sub */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				F31A543E2CB51E1B0039F168 /* Exceptions for "Sub-Sub" folder in "Sub-Sub" target */,
-			);
-			path = "Sub-Sub";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F31A542B2CB51E190039F168 /* Frameworks */ = {
@@ -45,7 +37,7 @@
 		F31A54252CB51E190039F168 = {
 			isa = PBXGroup;
 			children = (
-				F31A54302CB51E190039F168 /* Sub-Sub */,
+				F31A544C2CB51E240039F168 /* Sub-Sub */,
 				F31A542F2CB51E190039F168 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +48,19 @@
 				F31A542E2CB51E190039F168 /* Sub-Sub.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F31A544C2CB51E240039F168 /* Sub-Sub */ = {
+			isa = PBXGroup;
+			children = (
+				F31A544B2CB51E240039F168 /* Sub-Sub.swift */,
+				F31A54482CB51E240039F168 /* Info.plist */,
+				F31A544A2CB51E240039F168 /* Sub_Sub.entitlements */,
+				F31A54462CB51E240039F168 /* Assets.xcassets */,
+				F31A54472CB51E240039F168 /* Content View.swift */,
+				F31A54492CB51E240039F168 /* Item.swift */,
+			);
+			path = "Sub-Sub";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +77,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				F31A54302CB51E190039F168 /* Sub-Sub */,
 			);
 			name = "Sub-Sub";
 			packageProductDependencies = (
@@ -122,6 +124,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F31A544E2CB51E240039F168 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +135,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F31A54502CB51E240039F168 /* Content View.swift in Sources */,
+				F31A54512CB51E240039F168 /* Item.swift in Sources */,
+				F31A54522CB51E240039F168 /* Sub-Sub.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,12 +152,12 @@
 				CODE_SIGN_ENTITLEMENTS = "Sub-Sub/Sub_Sub.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Sub-Sub/Preview Content\"";
 				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sub-Sub/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sub-Sub";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -162,7 +168,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -174,7 +180,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 2.0;
+				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Debug;
 		};
@@ -186,12 +192,12 @@
 				CODE_SIGN_ENTITLEMENTS = "Sub-Sub/Sub_Sub.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Sub-Sub/Preview Content\"";
 				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sub-Sub/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Sub-Sub";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -202,7 +208,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -214,7 +220,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 2.0;
+				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Release;
 		};
