@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 90;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -26,10 +26,8 @@
 /* Begin PBXFrameworksBuildPhase section */
 		F31A542B2CB51E190039F168 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -76,11 +74,7 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			name = "Sub-Sub";
-			packageProductDependencies = (
-			);
 			productName = "Sub-Sub";
 			productReference = F31A542E2CB51E190039F168 /* Sub-Sub.app */;
 			productType = "com.apple.product-type.application";
@@ -93,7 +87,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
-				LastUpgradeCheck = 1600;
+				LastUpgradeCheck = 1640;
 				TargetAttributes = {
 					F31A542D2CB51E190039F168 = {
 						CreatedOnToolsVersion = 16.0;
@@ -109,7 +103,7 @@
 			);
 			mainGroup = F31A54252CB51E190039F168;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
+			preferredProjectObjectVersion = 90;
 			productRefGroup = F31A542F2CB51E190039F168 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,37 +116,33 @@
 /* Begin PBXResourcesBuildPhase section */
 		F31A542C2CB51E190039F168 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F31A544E2CB51E240039F168 /* Assets.xcassets in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F31A542A2CB51E190039F168 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				F31A54502CB51E240039F168 /* Content View.swift in Sources */,
 				F31A54512CB51E240039F168 /* Item.swift in Sources */,
 				F31A54522CB51E240039F168 /* Sub-Sub.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F31A54402CB51E1B0039F168 /* Debug */ = {
+		F31A54402CB51E1B0039F168 /* Debug configuration for PBXNativeTarget "Sub-Sub" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Sub-Sub/Sub-Sub.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8FQUA2F388;
+				CURRENT_PROJECT_VERSION = 0;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -184,15 +174,15 @@
 			};
 			name = Debug;
 		};
-		F31A54412CB51E1B0039F168 /* Release */ = {
+		F31A54412CB51E1B0039F168 /* Release configuration for PBXNativeTarget "Sub-Sub" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Sub-Sub/Sub-Sub.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8FQUA2F388;
+				CURRENT_PROJECT_VERSION = 0;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -224,7 +214,7 @@
 			};
 			name = Release;
 		};
-		F31A54422CB51E1B0039F168 /* Debug */ = {
+		F31A54422CB51E1B0039F168 /* Debug configuration for PBXProject "Sub-Sub" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -258,7 +248,9 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -285,7 +277,7 @@
 			};
 			name = Debug;
 		};
-		F31A54432CB51E1B0039F168 /* Release */ = {
+		F31A54432CB51E1B0039F168 /* Release configuration for PBXProject "Sub-Sub" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -319,7 +311,9 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8FQUA2F388;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -344,19 +338,17 @@
 		F31A54292CB51E190039F168 /* Build configuration list for PBXProject "Sub-Sub" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F31A54422CB51E1B0039F168 /* Debug */,
-				F31A54432CB51E1B0039F168 /* Release */,
+				F31A54422CB51E1B0039F168 /* Debug configuration for PBXProject "Sub-Sub" */,
+				F31A54432CB51E1B0039F168 /* Release configuration for PBXProject "Sub-Sub" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		F31A543F2CB51E1B0039F168 /* Build configuration list for PBXNativeTarget "Sub-Sub" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F31A54402CB51E1B0039F168 /* Debug */,
-				F31A54412CB51E1B0039F168 /* Release */,
+				F31A54402CB51E1B0039F168 /* Debug configuration for PBXNativeTarget "Sub-Sub" */,
+				F31A54412CB51E1B0039F168 /* Release configuration for PBXNativeTarget "Sub-Sub" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
