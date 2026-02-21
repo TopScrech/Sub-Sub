@@ -6,22 +6,30 @@
 	objectVersion = 90;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		F31A544E2CB51E240039F168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F31A54462CB51E240039F168 /* Assets.xcassets */; };
-		F31A54502CB51E240039F168 /* Content View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31A54472CB51E240039F168 /* Content View.swift */; };
-		F31A54512CB51E240039F168 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31A54492CB51E240039F168 /* Item.swift */; };
-		F31A54522CB51E240039F168 /* Sub-Sub.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31A544B2CB51E240039F168 /* Sub-Sub.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		F31A542E2CB51E190039F168 /* Sub-Sub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sub-Sub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F31A54462CB51E240039F168 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F31A54472CB51E240039F168 /* Content View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Content View.swift"; sourceTree = "<group>"; };
-		F31A54482CB51E240039F168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F31A54492CB51E240039F168 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		F31A544A2CB51E240039F168 /* Sub-Sub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Sub-Sub.entitlements"; sourceTree = "<group>"; };
-		F31A544B2CB51E240039F168 /* Sub-Sub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sub-Sub.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F3B1B2462F49C04900AA5AD3 /* Exceptions for "Sub-Sub" folder in "Sub-Sub" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F31A542D2CB51E190039F168 /* Sub-Sub */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F3B1B2402F49C04900AA5AD3 /* Sub-Sub */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F3B1B2462F49C04900AA5AD3 /* Exceptions for "Sub-Sub" folder in "Sub-Sub" target */,
+			);
+			path = "Sub-Sub";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F31A542B2CB51E190039F168 /* Frameworks */ = {
@@ -35,7 +43,7 @@
 		F31A54252CB51E190039F168 = {
 			isa = PBXGroup;
 			children = (
-				F31A544C2CB51E240039F168 /* Sub-Sub */,
+				F3B1B2402F49C04900AA5AD3 /* Sub-Sub */,
 				F31A542F2CB51E190039F168 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,19 +54,6 @@
 				F31A542E2CB51E190039F168 /* Sub-Sub.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F31A544C2CB51E240039F168 /* Sub-Sub */ = {
-			isa = PBXGroup;
-			children = (
-				F31A544B2CB51E240039F168 /* Sub-Sub.swift */,
-				F31A54482CB51E240039F168 /* Info.plist */,
-				F31A544A2CB51E240039F168 /* Sub-Sub.entitlements */,
-				F31A54462CB51E240039F168 /* Assets.xcassets */,
-				F31A54472CB51E240039F168 /* Content View.swift */,
-				F31A54492CB51E240039F168 /* Item.swift */,
-			);
-			path = "Sub-Sub";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +69,9 @@
 			);
 			buildRules = (
 			);
+			fileSystemSynchronizedGroups = (
+				F3B1B2402F49C04900AA5AD3 /* Sub-Sub */,
+			);
 			name = "Sub-Sub";
 			productName = "Sub-Sub";
 			productReference = F31A542E2CB51E190039F168 /* Sub-Sub.app */;
@@ -87,7 +85,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
-				LastUpgradeCheck = 1640;
+				LastUpgradeCheck = 2630;
 				TargetAttributes = {
 					F31A542D2CB51E190039F168 = {
 						CreatedOnToolsVersion = 16.0;
@@ -117,7 +115,6 @@
 		F31A542C2CB51E190039F168 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
-				F31A544E2CB51E240039F168 /* Assets.xcassets in Resources */,
 			);
 		};
 /* End PBXResourcesBuildPhase section */
@@ -126,9 +123,6 @@
 		F31A542A2CB51E190039F168 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
-				F31A54502CB51E240039F168 /* Content View.swift in Sources */,
-				F31A54512CB51E240039F168 /* Item.swift in Sources */,
-				F31A54522CB51E240039F168 /* Sub-Sub.swift in Sources */,
 			);
 		};
 /* End PBXSourcesBuildPhase section */
@@ -143,8 +137,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
 				DEAD_CODE_STRIPPING = YES;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sub-Sub/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Sub-Sub";
@@ -183,8 +179,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0;
 				DEAD_CODE_STRIPPING = YES;
+				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Sub-Sub/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Sub-Sub";
@@ -272,6 +270,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -328,6 +327,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
